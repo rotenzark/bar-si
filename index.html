@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <script>(function(){var r=document.documentElement;r.classList.remove('no-js');
 /* la firma: finché main.js non parte c'è il tagliere vuoto davanti all'affettatrice; se il codice non arriva, dopo 2,5 s il panino fatto */
 try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaAffettatrice=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
@@ -20,15 +21,49 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@500;600;700&amp;family=Rambla:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=1" defer></script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Bar SÌ","description":"Bar in Largo Augusto angolo Via Cerva 1 a Milano: colazione dalle 6, panini e focacce col salume tagliato al momento, piatti caldi e freddi a pranzo, dolci siciliani.","url":"https://rotenzark.github.io/bar-si/","image":"https://rotenzark.github.io/bar-si/img/og.jpg","telephone":"+39 02 7600 2221","address":{"@type":"PostalAddress","streetAddress":"Largo Augusto, angolo Via Cerva 1","postalCode":"20122","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4634668,"longitude":9.1978687},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"06:00","closes":"19:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","reviewCount":"95","bestRating":"5"}}
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Bar SÌ",
+  "description": "Bar in Largo Augusto angolo Via Cerva 1 a Milano: colazione dalle 6, panini e focacce col salume tagliato al momento, piatti caldi e freddi a pranzo, dolci siciliani.",
+  "url": "https://rotenzark.github.io/bar-si/",
+  "image": "https://rotenzark.github.io/bar-si/img/og.jpg",
+  "telephone": "+39 02 7600 2221",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Largo Augusto, angolo Via Cerva 1",
+    "postalCode": "20122",
+    "addressLocality": "Milano",
+    "addressRegion": "MI",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.4634668,
+    "longitude": 9.1978687
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "06:00",
+      "closes": "19:00"
+    }
+  ]
+}
 </script>
 </head>
 <body>
@@ -209,11 +244,11 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <h2 id="diconoT" class="capitolo__titolo" data-i18n="d.titolo">Lo dicono i clienti di tutti i giorni</h2>
     <p class="voto voto--sezione"><b class="voto__n">4,6</b> <span class="voto__su" data-i18n="d.google">su Google, 95 recensioni</span></p>
     <ul class="bustine">
-      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Quando la genuinità dei prodotti sposa la bravura e la passione di chi crea i panini con sapori tradizionali ed abbinamenti nuovi ma intriganti siete arrivati al bar SI […]»</p><p class="bustina__chi"><b>luciano vigano'</b> <span data-i18n="d.g2m">Google, 2 mesi fa</span></p></li>
-      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Quando l’amore per il proprio lavoro si percepisce .....Un bar non molto grande, gestito da maritoe moglie, io ci sono entrato una volta per le loro brioche vegane ( fantastiche ),  vista la loro cortesia ho deciso di fermarmi un giorno a mangiare; la qualità dei prodotti fantastica, hanno sempre qualcosa di pronto, tra primi, secondi, insalate e panini, inoltre vi preparano qualsiasi cosa voi chiediate, offrendovi una coppa di frutta fresca al termine, qualsiasi cosa voi abbiate mangiato. Da provare ! Ormai il mio bar preferito»</p><p class="bustina__chi"><b>Andrea Bovolato</b> <span data-i18n="d.g7a">Google, 7 anni fa</span></p></li>
-      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Appena posso ci vado! Si mangia benissimo. Piatti cucinati dal proprietario con passione e maestria. Molte le scelte, tutte ottime e per ogni gusto. Ci si sente coccolati. I prezzi sono ottimi. Ad ogni pasto offrono una banana. Il proprietario è siciliano e fa lui anche i cannoli che sono un portento. Lo consiglio.»</p><p class="bustina__chi"><b>Giuditta Fontana</b> <span data-i18n="d.g4a">Google, 4 anni fa</span></p></li>
-      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Ho iniziato da un mesetto a lavorare in centro a Milano e avevo paura che avrei speso mezzo stipendio per dei pranzi tristissimi e così è stato finché non ho scoperto questo fantastico bar!Panini originali e super farciti, piatti caldi e freddi buonissimi a prezzi clamorosamente onesti!Inoltre i proprietari sono super gentili e simpatici e regalano anche sempre frutta freschissima, da quando ho scoperto loro non ho più neanche lontanamente pensato a cercare un altro posto per pranzare! Consigliatissimo!!![…]»</p><p class="bustina__chi"><b>Alberto Gabri</b> <span data-i18n="d.g5a">Google, 5 anni fa</span></p></li>
-      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Personale accogliente, ambiente piccolo ma carino. Se volete fare un piccolo break dal casino milanese rimanendo in centro questo è il posto giusto!P.s. consiglio le brioches di pasticceria, sono le più buone che abbia mai mangiato!»</p><p class="bustina__chi"><b>Nicola Stefani</b> <span data-i18n="d.g8a">Google, 8 anni fa</span></p></li>
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p lang="it" class="bustina__testo">«Quando la genuinità dei prodotti sposa la bravura e la passione di chi crea i panini con sapori tradizionali ed abbinamenti nuovi ma intriganti siete arrivati al bar SI […]»</p><p class="bustina__chi"><b>luciano vigano'</b> <span data-i18n="d.g2m">Google, 2 mesi fa</span></p></li>
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p lang="it" class="bustina__testo">«Quando l’amore per il proprio lavoro si percepisce .....Un bar non molto grande, gestito da maritoe moglie, io ci sono entrato una volta per le loro brioche vegane ( fantastiche ),  vista la loro cortesia ho deciso di fermarmi un giorno a mangiare; la qualità dei prodotti fantastica, hanno sempre qualcosa di pronto, tra primi, secondi, insalate e panini, inoltre vi preparano qualsiasi cosa voi chiediate, offrendovi una coppa di frutta fresca al termine, qualsiasi cosa voi abbiate mangiato. Da provare ! Ormai il mio bar preferito»</p><p class="bustina__chi"><b>Andrea Bovolato</b> <span data-i18n="d.g7a">Google, 7 anni fa</span></p></li>
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p lang="it" class="bustina__testo">«Appena posso ci vado! Si mangia benissimo. Piatti cucinati dal proprietario con passione e maestria. Molte le scelte, tutte ottime e per ogni gusto. Ci si sente coccolati. I prezzi sono ottimi. Ad ogni pasto offrono una banana. Il proprietario è siciliano e fa lui anche i cannoli che sono un portento. Lo consiglio.»</p><p class="bustina__chi"><b>Giuditta Fontana</b> <span data-i18n="d.g4a">Google, 4 anni fa</span></p></li>
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p lang="it" class="bustina__testo">«Ho iniziato da un mesetto a lavorare in centro a Milano e avevo paura che avrei speso mezzo stipendio per dei pranzi tristissimi e così è stato finché non ho scoperto questo fantastico bar!Panini originali e super farciti, piatti caldi e freddi buonissimi a prezzi clamorosamente onesti!Inoltre i proprietari sono super gentili e simpatici e regalano anche sempre frutta freschissima, da quando ho scoperto loro non ho più neanche lontanamente pensato a cercare un altro posto per pranzare! Consigliatissimo!!![…]»</p><p class="bustina__chi"><b>Alberto Gabri</b> <span data-i18n="d.g5a">Google, 5 anni fa</span></p></li>
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p lang="it" class="bustina__testo">«Personale accogliente, ambiente piccolo ma carino. Se volete fare un piccolo break dal casino milanese rimanendo in centro questo è il posto giusto!P.s. consiglio le brioches di pasticceria, sono le più buone che abbia mai mangiato!»</p><p class="bustina__chi"><b>Nicola Stefani</b> <span data-i18n="d.g8a">Google, 8 anni fa</span></p></li>
       <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Ottimo cappuccino e brioche. Servizio eccellente.»</p><p class="bustina__chi"><b>David A</b> <span data-i18n="d.g3a">Google, 3 anni fa</span></p></li>
     </ul>
     <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte; […] dove abbiamo tagliato. La frase in alto è di un altro cliente, sempre su Google.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Bar+S%C3%8C%2C+Largo+Augusto%2C+20122+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
@@ -242,7 +277,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <p class="orari__nota" data-i18n="o.nota">Orari dalla nostra scheda Google (settembre 2026).</p>
     <div class="dove" id="dove">
       <div class="cartina reveal">
-        <iframe title="Mappa: Bar SÌ, Largo Augusto angolo Via Cerva 1, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=45.4634668,9.1978687&amp;z=17&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 400px"><template><iframe title="Mappa: Bar SÌ, Largo Augusto angolo Via Cerva 1, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=45.4634668,9.1978687&amp;z=17&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bar+S%C3%8C%2C+Largo+Augusto%2C+Via+Cerva+1%2C+20122+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
       <div>
         <dl class="indirizzo">
@@ -264,7 +299,7 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
     <p class="piede__riga" data-i18n="f2.riga">Colazione · panini tagliati al momento · pranzo · dolci siciliani</p>
     <p class="piede__dove">Largo Augusto, angolo Via Cerva 1, 20122 Milano · <a href="tel:+390276002221" class="intero">02 7600 2221</a></p>
     <p class="piede__orario" data-i18n="f2.orario">Dal lunedì al sabato 6–19 · domenica chiuso</p>
-    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · orari, voto, recensioni e foto dalla loro scheda Google (settembre 2026), le foto dei clienti che li hanno recensiti. L'affettatrice l'abbiamo disegnata noi.</p>
+    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a> · orari, voto, recensioni e foto dalla loro scheda Google (settembre 2026), le foto dei clienti che li hanno recensiti. L'affettatrice l'abbiamo disegnata noi.</p>
     <p><a class="piede__su" href="#inizio" data-i18n="f2.su">Torna su ↑</a></p>
   </div>
 </footer>
@@ -279,5 +314,6 @@ try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add(
   <img id="lightboxImg" src="" alt="">
 </div>
 
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
