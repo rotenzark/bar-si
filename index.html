@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="it" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){var r=document.documentElement;r.classList.remove('no-js');
+/* la firma: finché main.js non parte c'è il tagliere vuoto davanti all'affettatrice; se il codice non arriva, dopo 2,5 s il panino fatto */
+try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){r.classList.add('firma-attesa');window.__attesaAffettatrice=setTimeout(function(){r.classList.remove('firma-attesa')},2500)}}catch(e){}})()</script>
+<title>Bar SÌ — Bar in Largo Augusto angolo Via Cerva 1, Milano: colazione dalle 6, panini e pranzo</title>
+<meta name="description" content="Bar SÌ, il bar d'angolo di Largo Augusto (Via Cerva 1) a Milano, fra San Babila e il Verziere: colazione dalle 6, panini e focacce col salume tagliato al momento, piatti caldi e freddi a pranzo, cannoli siciliani. Dal lunedì al sabato 6–19. Google 4,6 su 95. Tel. 02 7600 2221.">
+<link rel="canonical" href="https://rotenzark.github.io/bar-si/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bar SÌ — Il bar d'angolo di Largo Augusto.">
+<meta property="og:description" content="Colazione dalle 6, panini col salume tagliato al momento, il pranzo, i dolci siciliani. Largo Augusto, angolo Via Cerva 1.">
+<meta property="og:image" content="https://rotenzark.github.io/bar-si/img/og.jpg">
+<meta property="og:url" content="https://rotenzark.github.io/bar-si/">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#161616">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@500;600;700&amp;family=Rambla:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=1">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="js/main.js?v=1" defer></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Bar SÌ","description":"Bar in Largo Augusto angolo Via Cerva 1 a Milano: colazione dalle 6, panini e focacce col salume tagliato al momento, piatti caldi e freddi a pranzo, dolci siciliani.","url":"https://rotenzark.github.io/bar-si/","image":"https://rotenzark.github.io/bar-si/img/og.jpg","telephone":"+39 02 7600 2221","address":{"@type":"PostalAddress","streetAddress":"Largo Augusto, angolo Via Cerva 1","postalCode":"20122","addressLocality":"Milano","addressRegion":"MI","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":45.4634668,"longitude":9.1978687},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"06:00","closes":"19:00"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","reviewCount":"95","bestRating":"5"}}
+</script>
+</head>
+<body>
+
+<a class="salta" href="#contenuto" data-i18n="m.salta">Vai al contenuto</a>
+
+<header class="testata" id="testata">
+  <div class="testata__dentro">
+    <a class="marchio" href="#inizio" aria-label="Bar SÌ: torna all'inizio" data-i18n-aria="m.top">
+      <svg class="marchio__tazza" viewBox="0 0 40 32" aria-hidden="true"><path d="M6 10 H28 V18 C28 25 23 29 17 29 C11 29 6 25 6 18 Z M28 13 H31 C35 13 35 21 31 21 H28 M3 31 H31"/><path d="M12 7 q 3 -3 0 -6 M18 7 q 3 -3 0 -6"/></svg>
+      <span class="marchio__testo" aria-hidden="true"><span class="marchio__nome">BAR SI</span><span class="marchio__sotto">Largo Augusto</span></span>
+    </a>
+    <nav id="mainNav" class="voci" aria-label="Le sezioni" data-i18n-aria="m.nav">
+      <a href="#banco" data-i18n="n.banco">Il banco</a>
+      <a href="#pranzo" data-i18n="n.pranzo">Il pranzo</a>
+      <a href="#frutta" data-i18n="n.frutta">La frutta</a>
+      <a href="#dicono" data-i18n="n.dicono">Dicono</a>
+      <a href="#orari" data-i18n="n.orari">Orari e dove</a>
+    </nav>
+    <div class="testata__azioni">
+      <div class="lingue" role="group" aria-label="Lingua" data-i18n-aria="m.lingua">
+        <button type="button" data-lang="it" aria-pressed="true">IT</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="chiama" href="tel:+390276002221"><span data-i18n="t.chiama">Chiama</span></a>
+      <button id="burger" class="burger" type="button" aria-expanded="false" aria-controls="menuMobile" aria-label="Apri il menu" data-i18n-aria="m.menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<nav id="menuMobile" class="menu-mobile" hidden aria-label="Le sezioni" data-i18n-aria="m.nav">
+  <a href="#banco" data-i18n="n.banco">Il banco</a>
+  <a href="#pranzo" data-i18n="n.pranzo">Il pranzo</a>
+  <a href="#frutta" data-i18n="n.frutta">La frutta</a>
+  <a href="#dicono" data-i18n="n.dicono">Dicono</a>
+  <a href="#orari" data-i18n="n.orari">Orari e dove</a>
+  <a class="menu-mobile__tel" href="tel:+390276002221"><span data-i18n="t.chiama">Chiama</span> <span class="intero">02 7600 2221</span></a>
+</nav>
+
+<main id="contenuto">
+
+  <!-- ══════ L'APERTURA: sul terracotta delle pareti; la firma sul banco ══════ -->
+  <section id="inizio" class="apertura" aria-labelledby="titolo">
+    <div class="apertura__firma">
+      <figure class="bancone" id="affettatrice-firma" data-modo="0" data-firma="fatta">
+        <!--AFFETTATRICE--><svg class="affettatrice__svg" id="affettatriceSvg" viewBox="0 0 560 560" role="img" aria-labelledby="affettatriceTitolo affettatriceDesc">
+        <title id="affettatriceTitolo" data-i18n="p.titolo">L'affettatrice</title>
+        <desc id="affettatriceDesc" data-i18n="p.desc">Il banco visto di fronte, davanti alle pareti color terracotta. Si accende la spia, la lama dell'affettatrice gira, il pane si posa aperto sul tagliere; il carrello passa sei volte e a ogni passata una fetta esce dalla lama e cade sul pane. Poi la farcia, il pane si chiude, la lama si ferma, e accanto arriva una banana. Tre pani: treccia al sesamo, panino lungo, focaccia.</desc>
+        <defs>
+          <radialGradient id="bsi-lama" cx=".42" cy=".38" r=".75"><stop offset="0" stop-color="#F6F8F9"/><stop offset=".7" stop-color="#DCE1E5"/><stop offset="1" stop-color="#C3CAD0"/></radialGradient>
+        </defs>
+        <rect class="muro" width="560" height="392"/><path class="muro__righe" d="M0 120 H560 M0 250 H560"/><rect class="banco" y="392" width="560" height="168"/><rect class="banco__bordo" y="386" width="560" height="10"/><path class="banco__venature" d="M20 430 C 120 420 160 470 260 452 M300 520 C 380 500 430 540 540 520 M40 520 C 90 500 120 540 200 530"/><rect class="mensola" x="380" y="142" width="156" height="9" rx="2"/><path class="mensola__staffa" d="M398 151 v 16 h 10 M508 151 v 16 h 10"/><path class="frutta__banana" d="M424 112 C 430 84 456 70 474 74 C 458 82 440 96 436 116 Z M436 114 C 446 90 470 80 486 86 C 468 92 452 104 448 118 Z"/><circle class="frutta__mela" cx="486" cy="112" r="13"/><path class="frutta__pera" d="M452 116 C 444 112 446 98 454 96 C 452 88 462 86 464 94 C 474 98 474 112 466 116 Z"/><path class="coppa" d="M412 112 H502 C 500 132 482 140 457 140 C 432 140 414 132 412 112 Z"/><path class="coppa__luce" d="M422 118 C 426 128 436 133 448 135"/>
+        <ellipse class="ombra" cx="213" cy="390" rx="160" ry="7"/><path class="base" d="M70 388 L84 300 Q86 292 96 292 L330 292 Q340 292 342 300 L356 388 Z"/><rect class="base__fascia" x="96" y="352" width="240" height="20" rx="4"/><rect class="binario" x="226" y="292" width="254" height="8" rx="4"/><rect class="binario" x="464" y="298" width="10" height="90"/><circle class="rotella" cx="104" cy="336" r="16"/><circle class="rotella__centro" cx="104" cy="336" r="6"/><circle class="spia__base" cx="318" cy="336" r="8"/><rect class="affilatoio" x="176" y="54" width="48" height="16" rx="4"/><circle class="affilatoio__pomo" cx="200" cy="50" r="6"/><circle class="lama__guardia" cx="200" cy="190" r="124"/><circle class="lama" cx="200" cy="190" r="112" fill="url(#bsi-lama)"/><circle class="lama__filo" cx="200" cy="190" r="108"/>
+        <g class="lama__giro" transform="rotate(0 200 190)"><path class="lama__luce" d="M200 190 L290.1 138 A104 104 0 0 1 304 190 Z M200 190 L109.9 242 A104 104 0 0 1 96 190 Z"/><circle class="lama__segno" cx="200" cy="88" r="4"/></g>
+        <circle class="mozzo" cx="200" cy="190" r="30"/><circle class="mozzo__tappo" cx="200" cy="190" r="14"/><path class="mozzo__luce" d="M182 178 Q 192 166 206 166"/>
+        <circle class="spia" cx="318" cy="336" r="5" opacity="0"/>
+        <g class="carrello" transform="translate(0 0)"><rect class="carrello__piatto" x="296" y="282" width="180" height="10" rx="3"/><rect class="carrello__sponda" x="466" y="214" width="10" height="70" rx="2"/><rect class="salume" x="318" y="222" width="140" height="60" rx="28"/><path class="salume__grasso" d="M334 227 H444"/><ellipse class="salume__taglio" cx="322" cy="252" rx="13" ry="29"/><path class="salume__marezzo" d="M318 236 q 6 8 0 16 q -6 8 2 18"/><rect class="pressino" x="448" y="196" width="12" height="40" rx="3"/><circle class="pressino__pomo" cx="454" cy="190" r="13"/></g>
+        <g class="servito" transform="translate(0 0)">
+          <ellipse class="tagliere__corteccia" cx="250" cy="490" rx="200" ry="34"/><ellipse class="tagliere" cx="250" cy="488" rx="188" ry="27"/><ellipse class="tagliere__anello" cx="250" cy="488" rx="122" ry="16"/><ellipse class="tagliere__anello" cx="250" cy="488" rx="62" ry="8"/>
+          <g class="modo modo--treccia" data-m="0"><g class="pane-sotto" data-m="0" transform="translate(0 0)" opacity="1"><path class="pane__crosta" d="M150 452 C150 466 160 474 178 474 L322 474 C340 474 350 466 350 452 Z"/><path class="pane__mollica" d="M154 451 H346"/></g></g><g class="modo modo--lungo" data-m="1"><g class="pane-sotto" data-m="1" transform="translate(0 0)" opacity="1"><path class="pane__crosta" d="M140 452 C140 464 150 470 166 470 L334 470 C350 470 360 464 360 452 Z"/><path class="pane__mollica" d="M144 451 H356"/></g></g><g class="modo modo--focaccia" data-m="2"><g class="pane-sotto" data-m="2" transform="translate(0 0)" opacity="1"><rect class="pane__crosta" x="150" y="452" width="200" height="16" rx="5"/><path class="pane__mollica" d="M154 452 H346"/></g></g>
+          <g class="fetta" data-i="0" transform="translate(190 449) rotate(-8) scale(1)" opacity="1"><path class="fetta__carne" d="M-32 0 C-26 -9 -16 6 -8 -4 C0 -12 8 4 16 -5 C24 -12 30 2 34 -2 C30 8 20 10 10 6 C0 12 -12 8 -20 10 C-28 10 -34 6 -32 0 Z"/><path class="fetta__grasso" d="M-28 -1 C-18 4 -10 -6 0 -2 C10 2 18 -6 30 -2"/></g><g class="fetta" data-i="1" transform="translate(238 450) rotate(5) scale(1)" opacity="1"><path class="fetta__carne" d="M-32 0 C-26 -9 -16 6 -8 -4 C0 -12 8 4 16 -5 C24 -12 30 2 34 -2 C30 8 20 10 10 6 C0 12 -12 8 -20 10 C-28 10 -34 6 -32 0 Z"/><path class="fetta__grasso" d="M-28 -1 C-18 4 -10 -6 0 -2 C10 2 18 -6 30 -2"/></g><g class="fetta" data-i="2" transform="translate(286 449) rotate(-4) scale(1)" opacity="1"><path class="fetta__carne" d="M-32 0 C-26 -9 -16 6 -8 -4 C0 -12 8 4 16 -5 C24 -12 30 2 34 -2 C30 8 20 10 10 6 C0 12 -12 8 -20 10 C-28 10 -34 6 -32 0 Z"/><path class="fetta__grasso" d="M-28 -1 C-18 4 -10 -6 0 -2 C10 2 18 -6 30 -2"/></g><g class="fetta" data-i="3" transform="translate(318 451) rotate(7) scale(1)" opacity="1"><path class="fetta__carne" d="M-32 0 C-26 -9 -16 6 -8 -4 C0 -12 8 4 16 -5 C24 -12 30 2 34 -2 C30 8 20 10 10 6 C0 12 -12 8 -20 10 C-28 10 -34 6 -32 0 Z"/><path class="fetta__grasso" d="M-28 -1 C-18 4 -10 -6 0 -2 C10 2 18 -6 30 -2"/></g><g class="fetta" data-i="4" transform="translate(214 444) rotate(3) scale(1)" opacity="1"><path class="fetta__carne" d="M-32 0 C-26 -9 -16 6 -8 -4 C0 -12 8 4 16 -5 C24 -12 30 2 34 -2 C30 8 20 10 10 6 C0 12 -12 8 -20 10 C-28 10 -34 6 -32 0 Z"/><path class="fetta__grasso" d="M-28 -1 C-18 4 -10 -6 0 -2 C10 2 18 -6 30 -2"/></g><g class="fetta" data-i="5" transform="translate(266 443) rotate(-6) scale(1)" opacity="1"><path class="fetta__carne" d="M-32 0 C-26 -9 -16 6 -8 -4 C0 -12 8 4 16 -5 C24 -12 30 2 34 -2 C30 8 20 10 10 6 C0 12 -12 8 -20 10 C-28 10 -34 6 -32 0 Z"/><path class="fetta__grasso" d="M-28 -1 C-18 4 -10 -6 0 -2 C10 2 18 -6 30 -2"/></g>
+          <g class="modo modo--treccia" data-m="0"><g class="farcia" data-m="0" transform="translate(0 0)" opacity="1"><path class="formaggio" d="M164 446 L336 446 L330 453 L320 453 L316 460 L310 453 L172 453 Z"/><path class="peperone peperone--rosso" d="M172 445 q 22 -6 44 0 M298 446 q 16 -5 34 1"/><path class="peperone peperone--giallo" d="M236 444 q 20 -6 40 1"/></g><g class="pane-sopra" data-m="0" transform="translate(0 0)" opacity="1"><ellipse class="pane__lobo" cx="172" cy="434" rx="26" ry="17"/><ellipse class="pane__lobo" cx="211" cy="434" rx="26" ry="17"/><ellipse class="pane__lobo" cx="250" cy="434" rx="26" ry="17"/><ellipse class="pane__lobo" cx="289" cy="434" rx="26" ry="17"/><ellipse class="pane__lobo" cx="328" cy="434" rx="26" ry="17"/><path class="pane__intreccio" d="M158 424 Q 172 432 184 446 M197 424 Q 211 432 223 446 M236 424 Q 250 432 262 446 M275 424 Q 289 432 301 446 M314 424 Q 328 432 340 446"/><path class="pane__luce" d="M160 424 Q 250 414 340 424"/><ellipse class="sesamo" cx="152.4" cy="428.6" rx="2.4" ry="1.2" transform="rotate(107 152.4 428.6)"/><ellipse class="sesamo" cx="202.3" cy="427.3" rx="2.4" ry="1.2" transform="rotate(33 202.3 427.3)"/><ellipse class="sesamo" cx="222.7" cy="439.1" rx="2.4" ry="1.2" transform="rotate(166 222.7 439.1)"/><ellipse class="sesamo" cx="240.7" cy="442" rx="2.4" ry="1.2" transform="rotate(93 240.7 442)"/><ellipse class="sesamo" cx="346.9" cy="439.6" rx="2.4" ry="1.2" transform="rotate(33 346.9 439.6)"/><ellipse class="sesamo" cx="237.2" cy="434.6" rx="2.4" ry="1.2" transform="rotate(34 237.2 434.6)"/><ellipse class="sesamo" cx="326.4" cy="443.6" rx="2.4" ry="1.2" transform="rotate(102 326.4 443.6)"/><ellipse class="sesamo" cx="160.5" cy="426.5" rx="2.4" ry="1.2" transform="rotate(44 160.5 426.5)"/><ellipse class="sesamo" cx="213" cy="435.5" rx="2.4" ry="1.2" transform="rotate(21 213 435.5)"/><ellipse class="sesamo" cx="291.7" cy="423.5" rx="2.4" ry="1.2" transform="rotate(25 291.7 423.5)"/><ellipse class="sesamo" cx="256.1" cy="431.1" rx="2.4" ry="1.2" transform="rotate(97 256.1 431.1)"/><ellipse class="sesamo" cx="246.1" cy="421.1" rx="2.4" ry="1.2" transform="rotate(39 246.1 421.1)"/><ellipse class="sesamo" cx="283.2" cy="439.7" rx="2.4" ry="1.2" transform="rotate(82 283.2 439.7)"/><ellipse class="sesamo" cx="300.2" cy="423.8" rx="2.4" ry="1.2" transform="rotate(8 300.2 423.8)"/><ellipse class="sesamo" cx="198.2" cy="442.9" rx="2.4" ry="1.2" transform="rotate(6 198.2 442.9)"/><ellipse class="sesamo" cx="278" cy="429.2" rx="2.4" ry="1.2" transform="rotate(46 278 429.2)"/><ellipse class="sesamo" cx="240.1" cy="442.6" rx="2.4" ry="1.2" transform="rotate(123 240.1 442.6)"/><ellipse class="sesamo" cx="284.5" cy="432.7" rx="2.4" ry="1.2" transform="rotate(13 284.5 432.7)"/><ellipse class="sesamo" cx="158.1" cy="426.9" rx="2.4" ry="1.2" transform="rotate(31 158.1 426.9)"/><ellipse class="sesamo" cx="335.1" cy="425.2" rx="2.4" ry="1.2" transform="rotate(36 335.1 425.2)"/><ellipse class="sesamo" cx="332.6" cy="426.8" rx="2.4" ry="1.2" transform="rotate(113 332.6 426.8)"/><ellipse class="sesamo" cx="270.6" cy="425" rx="2.4" ry="1.2" transform="rotate(52 270.6 425)"/><ellipse class="sesamo" cx="266.7" cy="438.4" rx="2.4" ry="1.2" transform="rotate(30 266.7 438.4)"/><ellipse class="sesamo" cx="337.2" cy="424.8" rx="2.4" ry="1.2" transform="rotate(17 337.2 424.8)"/><ellipse class="sesamo" cx="287.5" cy="432.6" rx="2.4" ry="1.2" transform="rotate(81 287.5 432.6)"/><ellipse class="sesamo" cx="328.9" cy="425.7" rx="2.4" ry="1.2" transform="rotate(40 328.9 425.7)"/></g></g><g class="modo modo--lungo" data-m="1"><g class="farcia" data-m="1" transform="translate(0 0)" opacity="1"><path class="cavolo" d="M146 446 C180 440 210 450 250 444 C290 438 320 450 354 445 M150 449 C190 446 230 452 270 447 C300 444 330 451 358 449 M160 443 C200 438 240 446 280 441"/><path class="rucola" d="M136 447 l 10 -8 l 2 6 l 8 -7 l 1 7 l 10 -4 l -6 9 Z M364 447 l -10 -8 l -2 6 l -8 -7 l -1 7 l -10 -4 l 6 9 Z M246 441 l 8 -7 l 2 5 l 7 -5 l 0 6 l 8 -2 l -6 6 Z"/><path class="scaglie" d="M196 441 l 8 -2 l 3 4 l -9 2 Z M300 440 l 7 -3 l 3 4 l -8 2 Z M228 444 l 6 -1 l 2 3 l -7 1 Z"/></g><g class="pane-sopra" data-m="1" transform="translate(0 0)" opacity="1"><path class="pane__cupola" d="M138 449 C140 416 360 416 362 449 Z"/><path class="pane__luce" d="M162 426 Q 250 412 338 426"/><ellipse class="sesamo" cx="204" cy="438.8" rx="2.4" ry="1.2" transform="rotate(18 204 438.8)"/><ellipse class="sesamo" cx="270.8" cy="434.1" rx="2.4" ry="1.2" transform="rotate(94 270.8 434.1)"/><ellipse class="sesamo" cx="266.4" cy="439.8" rx="2.4" ry="1.2" transform="rotate(16 266.4 439.8)"/><ellipse class="sesamo" cx="153.4" cy="440.9" rx="2.4" ry="1.2" transform="rotate(64 153.4 440.9)"/><ellipse class="sesamo" cx="195.5" cy="443.9" rx="2.4" ry="1.2" transform="rotate(124 195.5 443.9)"/><ellipse class="sesamo" cx="303.9" cy="441.5" rx="2.4" ry="1.2" transform="rotate(47 303.9 441.5)"/><ellipse class="sesamo" cx="156.2" cy="443.8" rx="2.4" ry="1.2" transform="rotate(87 156.2 443.8)"/><ellipse class="sesamo" cx="344.4" cy="435.9" rx="2.4" ry="1.2" transform="rotate(160 344.4 435.9)"/><ellipse class="sesamo" cx="263.7" cy="436.9" rx="2.4" ry="1.2" transform="rotate(118 263.7 436.9)"/><ellipse class="sesamo" cx="220" cy="441.7" rx="2.4" ry="1.2" transform="rotate(70 220 441.7)"/><ellipse class="sesamo" cx="306.8" cy="435.4" rx="2.4" ry="1.2" transform="rotate(58 306.8 435.4)"/><ellipse class="sesamo" cx="253" cy="434" rx="2.4" ry="1.2" transform="rotate(175 253 434)"/><ellipse class="sesamo" cx="241.4" cy="426.8" rx="2.4" ry="1.2" transform="rotate(67 241.4 426.8)"/><ellipse class="sesamo" cx="234.3" cy="443.6" rx="2.4" ry="1.2" transform="rotate(7 234.3 443.6)"/><ellipse class="sesamo" cx="318.3" cy="443.7" rx="2.4" ry="1.2" transform="rotate(153 318.3 443.7)"/><ellipse class="sesamo" cx="281.9" cy="436.7" rx="2.4" ry="1.2" transform="rotate(106 281.9 436.7)"/><ellipse class="sesamo" cx="222.6" cy="426.7" rx="2.4" ry="1.2" transform="rotate(67 222.6 426.7)"/><ellipse class="sesamo" cx="186.2" cy="442.1" rx="2.4" ry="1.2" transform="rotate(33 186.2 442.1)"/><ellipse class="sesamo" cx="289" cy="434" rx="2.4" ry="1.2" transform="rotate(103 289 434)"/><ellipse class="sesamo" cx="172.8" cy="442.5" rx="2.4" ry="1.2" transform="rotate(162 172.8 442.5)"/><ellipse class="sesamo" cx="302.2" cy="426.9" rx="2.4" ry="1.2" transform="rotate(106 302.2 426.9)"/><ellipse class="sesamo" cx="217.2" cy="442.9" rx="2.4" ry="1.2" transform="rotate(14 217.2 442.9)"/><ellipse class="sesamo" cx="201.7" cy="425.8" rx="2.4" ry="1.2" transform="rotate(50 201.7 425.8)"/><ellipse class="sesamo" cx="236.2" cy="436.1" rx="2.4" ry="1.2" transform="rotate(133 236.2 436.1)"/><ellipse class="sesamo" cx="306.9" cy="443" rx="2.4" ry="1.2" transform="rotate(143 306.9 443)"/><ellipse class="sesamo" cx="296.2" cy="437.3" rx="2.4" ry="1.2" transform="rotate(128 296.2 437.3)"/><ellipse class="sesamo" cx="347.3" cy="443.1" rx="2.4" ry="1.2" transform="rotate(98 347.3 443.1)"/><ellipse class="sesamo" cx="164.5" cy="431.7" rx="2.4" ry="1.2" transform="rotate(55 164.5 431.7)"/><ellipse class="sesamo" cx="263" cy="438.5" rx="2.4" ry="1.2" transform="rotate(11 263 438.5)"/><ellipse class="sesamo" cx="165.1" cy="426.5" rx="2.4" ry="1.2" transform="rotate(60 165.1 426.5)"/></g></g><g class="modo modo--focaccia" data-m="2"><g class="farcia" data-m="2" transform="translate(0 0)" opacity="1"></g><g class="pane-sopra" data-m="2" transform="translate(0 0)" opacity="1"><rect class="pane__focaccia" x="148" y="426" width="204" height="22" rx="8"/><circle class="pane__fossetta" cx="162" cy="433" r="3"/><circle class="pane__fossetta" cx="197" cy="433" r="3"/><circle class="pane__fossetta" cx="232" cy="433" r="3"/><circle class="pane__fossetta" cx="267" cy="433" r="3"/><circle class="pane__fossetta" cx="302" cy="433" r="3"/><circle class="pane__fossetta" cx="337" cy="433" r="3"/><circle class="pane__fossetta" cx="179" cy="441" r="3"/><circle class="pane__fossetta" cx="214" cy="441" r="3"/><circle class="pane__fossetta" cx="249" cy="441" r="3"/><circle class="pane__fossetta" cx="284" cy="441" r="3"/><circle class="pane__fossetta" cx="319" cy="441" r="3"/><circle class="pane__fossetta" cx="354" cy="441" r="3"/><path class="pane__olio" d="M170 430 h 30 M250 431 h 22 M300 429 h 26"/></g></g>
+          <g class="banana" transform="translate(478 470) rotate(-10)" opacity="1"><path class="banana__buccia" d="M-62 4 C-40 22 30 24 60 -6 C62 -8 64 -12 62 -14 C40 8 -30 10 -58 -4 Z"/><path class="banana__costa" d="M-50 4 C-20 14 20 14 50 -2"/><path class="banana__gambo" d="M58 -10 L68 -18"/><circle class="banana__punta" cx="-60" cy="1" r="3"/></g>
+        </g>
+      </svg><!--/AFFETTATRICE-->
+        <figcaption class="bancone__didascalia">
+          <span class="bancone__d" data-m="0" data-i18n="p.d0">Treccia al sesamo: l'affettato tagliato al momento, il formaggio, i peperoni.</span>
+          <span class="bancone__d" data-m="1" data-i18n="p.d1">Panino lungo al sesamo: l'affettato, il cavolo viola, la rucola, le scaglie.</span>
+          <span class="bancone__d" data-m="2" data-i18n="p.d2">Focaccia: farcita con l'affettato tagliato all'affettatrice, al momento.</span>
+        </figcaption>
+        <div class="bancone__modi" role="group" aria-label="Quale pane" data-i18n-aria="p.modi">
+          <button type="button" data-modo="0" aria-pressed="true" data-i18n="p.b0">Treccia al sesamo</button>
+          <button type="button" data-modo="1" aria-pressed="false" data-i18n="p.b1">Panino lungo</button>
+          <button type="button" data-modo="2" aria-pressed="false">Focaccia</button>
+        </div>
+        <p class="visually-hidden" id="affettatriceLeggi" aria-live="polite"></p>
+      </figure>
+      <p class="apertura__nota" data-i18n="p.nota">L'affettatrice del banco: sei passate, sei fette, il panino chiuso; e accanto, la frutta.</p>
+    </div>
+    <div class="apertura__testo">
+      <p class="apertura__sopra" data-i18n="h.sopra">Bar · Largo Augusto, angolo Via Cerva 1 · dalle 6 del mattino</p>
+      <h1 id="titolo" class="titolo" data-i18n="h.titolo">Il bar d'angolo di Largo Augusto.</h1>
+      <p class="apertura__seconda" data-i18n="h.seconda">Colazione dalle 6, panini col salume tagliato al momento, piatti caldi e freddi a pranzo.</p>
+      <p class="apertura__frase" data-i18n="h.testo">Un bar piccolo, gestito da marito e moglie: le brioche al mattino, l'affettatrice accesa a mezzogiorno, i dolci siciliani e, a fine pasto, la frutta.</p>
+      <p class="voto"><b class="voto__n">4,6</b> <span class="voto__su" data-i18n="h.google">su Google, 95 recensioni</span></p>
+      <blockquote class="citazione">
+        <p>«I migliori panini in centro»</p>
+        <footer data-i18n="h.chi">Paolo Pozzi, in una recensione su Google</footer>
+      </blockquote>
+      <p class="stato" id="orarioStato">Dal lunedì al sabato 6–19</p>
+      <div class="apertura__azioni">
+        <a class="bottone bottone--pieno" href="tel:+390276002221"><span data-i18n="t.chiama">Chiama</span>&nbsp;<span class="intero">02 7600 2221</span></a>
+        <a class="bottone bottone--vuoto" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bar+S%C3%8C%2C+Largo+Augusto%2C+Via+Cerva+1%2C+20122+Milano" target="_blank" rel="noopener" data-i18n="t.indicazioni">Indicazioni</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ IL BANCO: la giornata in tre momenti, sul banco bianco con la riga d'acciaio ══════ -->
+  <section id="banco" class="capitolo capitolo--banco" aria-labelledby="bancoT">
+    <p class="etichetta" data-i18n="b.etichetta">Il banco</p>
+    <h2 id="bancoT" class="capitolo__titolo" data-i18n="b.titolo">Dalle 6 alle 19, sempre al banco</h2>
+    <div class="momenti">
+      <article class="momento reveal">
+        <p class="momento__ora" data-i18n="b.o1">Dalle 6</p>
+        <h3 class="momento__nome" data-i18n="b.n1">La colazione</h3>
+        <figure class="momento__foto"><button type="button" class="foto" data-full="img/cornetti.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/cornetti.jpg" width="1000" height="1073" alt="Due cornetti alla crema sul tagliere tondo e un cappuccino." data-i18n-alt="a.cornetti"></button></figure>
+        <ul class="momento__voci">
+          <li data-i18n="b.a1">Caffè e cappuccino</li>
+          <li data-i18n="b.a2">Brioche di pasticceria, alla ricotta, vegane</li>
+          <li data-i18n="b.a3">Le brioche riempite al momento, i cornetti alla crema</li>
+        </ul>
+      </article>
+      <article class="momento reveal">
+        <p class="momento__ora" data-i18n="b.o2">A mezzogiorno</p>
+        <h3 class="momento__nome" data-i18n="b.n2">Il pranzo</h3>
+        <ul class="momento__voci">
+          <li data-i18n="b.b1">Panini e focacce farciti al momento, col salume tagliato all'affettatrice</li>
+          <li data-i18n="b.b2">La treccia al sesamo e il panino lungo</li>
+          <li data-i18n="b.b3">Primi, secondi, insalate: piatti caldi e freddi</li>
+          <li data-i18n="b.b4">Anche da portare via</li>
+        </ul>
+        <p class="momento__vai"><a href="#pranzo" data-i18n="b.vai">Il pranzo, nei piatti ↓</a></p>
+      </article>
+      <article class="momento reveal">
+        <p class="momento__ora" data-i18n="b.o3">E poi</p>
+        <h3 class="momento__nome" data-i18n="b.n3">I dolci della tradizione</h3>
+        <ul class="momento__voci">
+          <li data-i18n="b.c1">I cannoli siciliani</li>
+          <li data-i18n="b.c2">Il pasticciotto</li>
+          <li data-i18n="b.c3">La pastiera</li>
+        </ul>
+        <p class="momento__nota" data-i18n="b.cnota">I dolci del Sud, al banco.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══════ IL PRANZO: i piatti sulla tovaglietta di carta ══════ -->
+  <section id="pranzo" class="capitolo capitolo--crema" aria-labelledby="pranzoT">
+    <p class="etichetta" data-i18n="r.etichetta">Il pranzo</p>
+    <h2 id="pranzoT" class="capitolo__titolo" data-i18n="r.titolo">A pranzo, sempre qualcosa di pronto</h2>
+    <div class="tovaglietta">
+      <figure class="piatto reveal"><button type="button" class="foto" data-full="img/insalata.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/insalata.jpg" width="1200" height="701" alt="Un'insalata del pranzo: burrata, avocado, ravanelli, carciofi e pomodori." data-i18n-alt="a.insalata"></button><figcaption data-i18n="k.insalata">Un'insalata del pranzo</figcaption></figure>
+      <div class="tovaglietta__testo">
+        <p class="tovaglietta__testa" data-i18n="r.testa">Oggi al banco</p>
+        <ul class="tovaglietta__voci">
+          <li data-i18n="r.v1">Panini e focacce, farciti al momento</li>
+          <li data-i18n="r.v2">Primi e secondi</li>
+          <li data-i18n="r.v3">Insalate e verdure</li>
+          <li data-i18n="r.v4">Piatti caldi e freddi, anche da portare via</li>
+        </ul>
+        <p class="tovaglietta__nota" data-i18n="r.nota">Il piatto del giorno cambia: chiedete al banco, o chiamateci.</p>
+      </div>
+      <figure class="piatto reveal"><button type="button" class="foto" data-full="img/piadina.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/piadina.jpg" width="1000" height="872" alt="Una piadina col pollo, la rucola, le olive, i pomodorini e la feta, sul tagliere tondo." data-i18n-alt="a.piadina"></button><figcaption data-i18n="k.piadina">La piadina del pranzo</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ══════ LA FRUTTA: a due passi dalla colonna del Verziere ══════ -->
+  <section id="frutta" class="capitolo capitolo--verziere" aria-labelledby="fruttaT">
+    <div class="frutta">
+      <div class="frutta__testo">
+        <p class="etichetta" data-i18n="v.etichetta">La frutta</p>
+        <h2 id="fruttaT" class="capitolo__titolo" data-i18n="v.titolo">La frutta, a fine pasto</h2>
+        <p data-i18n="v.p1">Largo Augusto è il posto del Verziere, il mercato della frutta e della verdura della vecchia Milano: la colonna col Redentore, a pochi passi dalla nostra porta, ne porta ancora il nome.</p>
+        <p data-i18n="v.p2">Qui la frutta arriva a fine pasto, tagliata in una coppa: la banana, la pera, i frutti di bosco, quello che c'è di stagione.</p>
+        <svg class="colonna" viewBox="0 0 80 200" aria-hidden="true"><path d="M40 8 C 44 8 46 14 44 20 L48 30 L44 34 L46 50 L34 50 L36 34 L32 30 L36 20 C 34 14 36 8 40 8 Z M30 54 H50 V60 H30 Z M33 60 H47 V170 H33 Z M26 170 H54 V178 H26 Z M18 178 H62 V190 H18 Z M10 190 H70 V198 H10 Z"/></svg>
+        <p class="colonna__didascalia" data-i18n="v.colonna">La colonna del Verziere, in Largo Augusto</p>
+      </div>
+      <div class="frutta__foto">
+        <figure class="coppa-foto reveal"><button type="button" class="foto" data-full="img/frutta.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/frutta.jpg" width="1000" height="904" alt="La coppa di vetro blu con la banana, la pera, i lamponi e la mora." data-i18n-alt="a.frutta"></button><figcaption data-i18n="k.frutta">Nella coppa di vetro blu</figcaption></figure>
+        <figure class="coppa-foto reveal"><button type="button" class="foto" data-full="img/calice.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/calice.jpg" width="1000" height="969" alt="La frutta tagliata nel calice di vetro: prugne, pesca, uva e anguria." data-i18n-alt="a.calice"></button><figcaption data-i18n="k.calice">D'estate, nel calice</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════ DICONO: le bustine di zucchero ══════ -->
+  <section id="dicono" class="capitolo capitolo--nero" aria-labelledby="diconoT">
+    <p class="etichetta" data-i18n="d.etichetta">Dicono</p>
+    <h2 id="diconoT" class="capitolo__titolo" data-i18n="d.titolo">Lo dicono i clienti di tutti i giorni</h2>
+    <p class="voto voto--sezione"><b class="voto__n">4,6</b> <span class="voto__su" data-i18n="d.google">su Google, 95 recensioni</span></p>
+    <ul class="bustine">
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Quando la genuinità dei prodotti sposa la bravura e la passione di chi crea i panini con sapori tradizionali ed abbinamenti nuovi ma intriganti siete arrivati al bar SI […]»</p><p class="bustina__chi"><b>luciano vigano'</b> <span data-i18n="d.g2m">Google, 2 mesi fa</span></p></li>
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Quando l’amore per il proprio lavoro si percepisce .....Un bar non molto grande, gestito da maritoe moglie, io ci sono entrato una volta per le loro brioche vegane ( fantastiche ),  vista la loro cortesia ho deciso di fermarmi un giorno a mangiare; la qualità dei prodotti fantastica, hanno sempre qualcosa di pronto, tra primi, secondi, insalate e panini, inoltre vi preparano qualsiasi cosa voi chiediate, offrendovi una coppa di frutta fresca al termine, qualsiasi cosa voi abbiate mangiato. Da provare ! Ormai il mio bar preferito»</p><p class="bustina__chi"><b>Andrea Bovolato</b> <span data-i18n="d.g7a">Google, 7 anni fa</span></p></li>
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Appena posso ci vado! Si mangia benissimo. Piatti cucinati dal proprietario con passione e maestria. Molte le scelte, tutte ottime e per ogni gusto. Ci si sente coccolati. I prezzi sono ottimi. Ad ogni pasto offrono una banana. Il proprietario è siciliano e fa lui anche i cannoli che sono un portento. Lo consiglio.»</p><p class="bustina__chi"><b>Giuditta Fontana</b> <span data-i18n="d.g4a">Google, 4 anni fa</span></p></li>
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Ho iniziato da un mesetto a lavorare in centro a Milano e avevo paura che avrei speso mezzo stipendio per dei pranzi tristissimi e così è stato finché non ho scoperto questo fantastico bar!Panini originali e super farciti, piatti caldi e freddi buonissimi a prezzi clamorosamente onesti!Inoltre i proprietari sono super gentili e simpatici e regalano anche sempre frutta freschissima, da quando ho scoperto loro non ho più neanche lontanamente pensato a cercare un altro posto per pranzare! Consigliatissimo!!![…]»</p><p class="bustina__chi"><b>Alberto Gabri</b> <span data-i18n="d.g5a">Google, 5 anni fa</span></p></li>
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Personale accogliente, ambiente piccolo ma carino. Se volete fare un piccolo break dal casino milanese rimanendo in centro questo è il posto giusto!P.s. consiglio le brioches di pasticceria, sono le più buone che abbia mai mangiato!»</p><p class="bustina__chi"><b>Nicola Stefani</b> <span data-i18n="d.g8a">Google, 8 anni fa</span></p></li>
+      <li class="bustina reveal"><p class="bustina__testa" aria-hidden="true">BAR SI · LARGO AUGUSTO</p><p class="bustina__testo">«Ottimo cappuccino e brioche. Servizio eccellente.»</p><p class="bustina__chi"><b>David A</b> <span data-i18n="d.g3a">Google, 3 anni fa</span></p></li>
+    </ul>
+    <p class="dicono__nota"><span data-i18n="d.nota">Dalle recensioni su Google, come sono state scritte; […] dove abbiamo tagliato. La frase in alto è di un altro cliente, sempre su Google.</span> <a href="https://www.google.com/maps/search/?api=1&amp;query=Bar+S%C3%8C%2C+Largo+Augusto%2C+20122+Milano" target="_blank" rel="noopener" data-i18n="d.tutte">Tutte le recensioni su Google</a></p>
+  </section>
+
+  <!-- ══════ ORARI (il cartello arancione) E DOVE ══════ -->
+  <section id="orari" class="capitolo capitolo--crema" aria-labelledby="orariT">
+    <p class="etichetta" data-i18n="o.etichetta">Orari e dove</p>
+    <h2 id="orariT" class="capitolo__titolo" data-i18n="o.titolo">Dal lunedì al sabato, dalle 6 alle 19</h2>
+    <div class="orari-riga">
+      <div class="cartello">
+        <p class="cartello__testa" data-i18n="o.testa">Orari</p>
+        <p class="stato stato--cartello" id="orarioStato2" aria-hidden="true"></p>
+        <div class="cartello__giorni" role="table" aria-label="Orari di apertura" data-i18n-aria="o.cap">
+          <div class="giorno" role="row" data-day="1"><span class="giorno__nome" role="rowheader" data-i18n="g.lun">Lunedì</span><span class="giorno__ore" role="cell">6–19</span></div>
+          <div class="giorno" role="row" data-day="2"><span class="giorno__nome" role="rowheader" data-i18n="g.mar">Martedì</span><span class="giorno__ore" role="cell">6–19</span></div>
+          <div class="giorno" role="row" data-day="3"><span class="giorno__nome" role="rowheader" data-i18n="g.mer">Mercoledì</span><span class="giorno__ore" role="cell">6–19</span></div>
+          <div class="giorno" role="row" data-day="4"><span class="giorno__nome" role="rowheader" data-i18n="g.gio">Giovedì</span><span class="giorno__ore" role="cell">6–19</span></div>
+          <div class="giorno" role="row" data-day="5"><span class="giorno__nome" role="rowheader" data-i18n="g.ven">Venerdì</span><span class="giorno__ore" role="cell">6–19</span></div>
+          <div class="giorno" role="row" data-day="6"><span class="giorno__nome" role="rowheader" data-i18n="g.sab">Sabato</span><span class="giorno__ore" role="cell">6–19</span></div>
+          <div class="giorno giorno--chiuso" role="row" data-day="0"><span class="giorno__nome" role="rowheader" data-i18n="g.dom">Domenica</span><span class="giorno__ore" role="cell" data-i18n="o.chiuso">chiuso</span></div>
+        </div>
+      </div>
+      <figure class="tenda reveal"><button type="button" class="foto" data-full="img/tenda.jpg" aria-label="Ingrandisci la foto" data-i18n-aria="m.ingrandisci"><img src="img/tenda.jpg" width="1100" height="1011" alt="La tenda nera con BAR SI sopra la vetrina, all'angolo, e il cartello arancione del taxi davanti." data-i18n-alt="a.tenda"></button><figcaption data-i18n="k.tenda">La tenda nera all'angolo, col cartello del taxi davanti</figcaption></figure>
+    </div>
+    <p class="orari__nota" data-i18n="o.nota">Orari dalla nostra scheda Google (settembre 2026).</p>
+    <div class="dove" id="dove">
+      <div class="cartina reveal">
+        <iframe title="Mappa: Bar SÌ, Largo Augusto angolo Via Cerva 1, Milano" data-i18n-title="w.mappa" src="https://maps.google.com/maps?q=45.4634668,9.1978687&amp;z=17&amp;output=embed" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div>
+        <dl class="indirizzo">
+          <div><dt data-i18n="w.dove">Dove</dt><dd data-i18n="w.dovev">Largo Augusto, angolo Via Cerva 1, 20122 Milano: la tenda nera sull'angolo</dd></div>
+          <div><dt data-i18n="w.tram">Tram e bus</dt><dd data-i18n="w.tramv">Tram 12, 19, 27 e bus 60, 61, fermata Largo Augusto, a circa 100&nbsp;metri</dd></div>
+          <div><dt data-i18n="w.metro">In metro</dt><dd data-i18n="w.metrov">M1 e M4 San Babila, a circa 300&nbsp;metri; M1 e M3 Duomo, a circa 700</dd></div>
+          <div><dt data-i18n="w.tel">Telefono</dt><dd><a href="tel:+390276002221" class="intero">02 7600 2221</a></dd></div>
+        </dl>
+        <p class="dove__azioni"><a class="bottone bottone--pieno" href="tel:+390276002221"><span data-i18n="t.chiama">Chiama</span></a> <a class="bottone bottone--vuoto" href="https://www.google.com/maps/dir/?api=1&amp;destination=Bar+S%C3%8C%2C+Largo+Augusto%2C+Via+Cerva+1%2C+20122+Milano" target="_blank" rel="noopener" data-i18n="t.indicazioni">Indicazioni</a></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="piede">
+  <div class="piede__dentro">
+    <p class="piede__marchio" aria-hidden="true"><span class="marchio__nome">BAR SI</span></p>
+    <p class="piede__riga" data-i18n="f2.riga">Colazione · panini tagliati al momento · pranzo · dolci siciliani</p>
+    <p class="piede__dove">Largo Augusto, angolo Via Cerva 1, 20122 Milano · <a href="tel:+390276002221" class="intero">02 7600 2221</a></p>
+    <p class="piede__orario" data-i18n="f2.orario">Dal lunedì al sabato 6–19 · domenica chiuso</p>
+    <p class="piede__cred" data-i18n="f2.cred">Sito dimostrativo realizzato da <a href="https://bespokestud.io" rel="noopener">Bespoke Studio</a> · orari, voto, recensioni e foto dalla loro scheda Google (settembre 2026), le foto dei clienti che li hanno recensiti. L'affettatrice l'abbiamo disegnata noi.</p>
+    <p><a class="piede__su" href="#inizio" data-i18n="f2.su">Torna su ↑</a></p>
+  </div>
+</footer>
+
+<div id="actionBar" class="action-bar">
+  <a href="tel:+390276002221"><span data-i18n="t.chiama">Chiama</span></a>
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Bar+S%C3%8C%2C+Largo+Augusto%2C+Via+Cerva+1%2C+20122+Milano" target="_blank" rel="noopener"><span data-i18n="t.indicazioni">Indicazioni</span></a>
+</div>
+
+<div id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Foto ingrandita" data-i18n-aria="m.lightbox">
+  <button id="lightboxClose" type="button" aria-label="Chiudi" data-i18n-aria="m.chiudi">×</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+</body>
+</html>
